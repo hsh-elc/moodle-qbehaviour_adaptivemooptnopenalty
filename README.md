@@ -1,2 +1,17 @@
-# moodle-qbehaviour_adaptivenopenalty
-Question Type Adaptive (no penalties) for Moodle Question Type Moopt
+# adaptive question behaviour without penalties for MooPT questions
+
+A description of all behaviours is available at the Moodle documentation.
+
+Visit: https://docs.moodle.org/310/en/Question_behaviours
+
+## install
+
+This question behaviour is only intended to be used with MooPT question.
+Without the MooPT question type this behaviour is not usable.
+This behaviour also depends on the adaptivemoopt behaviour.
+Install these two plugins before you follow this manual. 
+
+- first clone this folder into **.../moodle/question/behaviour/**
+- rename it to "adaptivemooptnopenalty"
+- select the adaptive no penalties behaviour when creating a quiz and add a MooPT question
+
